@@ -1,0 +1,22 @@
+@font-face{
+    font-family:'Gilroy B' ;
+    src: url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family:'Gilroy SB' ;
+    src: url('Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy SB','Gilroy B';
+}
+
+

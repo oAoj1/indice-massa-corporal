@@ -1,0 +1,30 @@
+.dadosContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 2em 0;
+    margin:1em auto 0 auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.4);
+}
+
+.nome{
+    font-size: 3em;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.imc,.objetivo{
+    font-size: 1.5em;
+}
+
+.contentImcObjetivo{
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin:1em auto 0 auto;
+}
