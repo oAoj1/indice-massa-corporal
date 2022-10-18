@@ -23,6 +23,7 @@ export function Formulario(){
 
     return(
         <form onSubmit={Calcular}>
+
             <h1>Calcule seu IMC</h1>
             <div className="contentForm">
 
@@ -62,6 +63,7 @@ export function Formulario(){
 
                 <label htmlFor="lista">Defina sua meta</label>
                 <select 
+                    required
                     onChange={objetivo => setObjetivo(objetivo.target.value)}>
                     <option></option>
                     {objetivos.map((objetivo,index) =>(
@@ -75,7 +77,6 @@ export function Formulario(){
             </div>
             
             <button>Calcular</button>
-
             
             {imc > 1 ? 
                 <Dados
