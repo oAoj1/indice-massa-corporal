@@ -1,5 +1,4 @@
 import './Formulario.css'
-import './index.css'
 import React, { useState } from "react";
 import { Dados } from "../Dados";
 
