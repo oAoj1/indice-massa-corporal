@@ -1,11 +1,11 @@
 @font-face{
     font-family:'Gilroy B' ;
-    src: url('Gilroy-Bold.ttf') format('truetype');
+    src: url('/Gilroy-Bold.ttf') format('truetype');
 }
 
 @font-face{
     font-family:'Gilroy SB' ;
-    src: url('Gilroy-SemiBold.ttf') format('truetype');
+    src: url('/Gilroy-SemiBold.ttf') format('truetype');
 }
 
 *{
