@@ -62,15 +62,17 @@ export function Formulario(){
                 </div>
 
                 <label htmlFor="lista">Defina sua meta</label>
+
                 <select 
                     required
                     onChange={objetivo => setObjetivo(objetivo.target.value)}>
+                        
                     <option></option>
-                    {objetivos.map((objetivo,index) =>(
-                        <option key={index}>
-                            {objetivo}
-                        </option>
-                    ))}
+                        {objetivos.map((objetivo,index) =>(
+                            <option key={index}>
+                                {objetivo}
+                            </option>
+                        ))}
 
                 </select>
 
